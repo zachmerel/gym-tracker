@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4f66ec4-87b6-4a41-8d32-ec6e33c2a334" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/strength-exercise-crud-service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-crud-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-crud-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-crud-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-crud-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/ExerciseCrudServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/StrengthExerciseCrudServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/controller/ExerciseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/controller/StrengthExerciseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/dao/ExerciseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/dao/StrengthExerciseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/dto/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/dto/StrengthExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-crud-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-crud-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-crud-service/src/test/java/com/merel/exercisecrudservice/ExerciseCrudServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-crud-service/src/test/java/com/merel/exercisecrudservice/StrengthStrengthExerciseCrudServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strength-exercise-crud-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/strength-exercise-crud-service/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config-service/target/" />
     <ignored path="$PROJECT_DIR$/service-registry/target/" />
@@ -29,10 +22,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/StrengthExerciseCrudServiceApplication.java">
+        <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/StrengthExerciseCrudServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise-crud-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -42,24 +53,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-crud-service.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-crud-service/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="37" lean-forward="true" selection-end-line="1" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -96,6 +89,7 @@
         <option value="$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/controller/StrengthExerciseController.java" />
         <option value="$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/StrengthExerciseCrudServiceApplication.java" />
         <option value="$PROJECT_DIR$/strength-exercise-crud-service/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/strength-exercise-crud-service/pom.xml" />
       </list>
     </option>
   </component>
@@ -136,27 +130,6 @@
               <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
               <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
               <item name="exercise-crud-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-crud-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-crud-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-crud-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
@@ -281,9 +254,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StrengthExerciseCrudServiceApplication (1)" />
-        <item itemvalue="Application.StrengthExerciseCrudServiceApplication" />
         <item itemvalue="Application.ServiceRegistryApplication" />
         <item itemvalue="Application.ConfigServiceApplication" />
+        <item itemvalue="Application.StrengthExerciseCrudServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -317,14 +290,14 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46817538" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46817538" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.32918397" />
+      <window_info anchor="right" id="Maven" weight="0.3286385" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -368,13 +341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-crud-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-310">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -471,6 +437,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/StrengthExerciseCrudServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-crud-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/StrengthExerciseCrudServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -478,10 +458,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/StrengthExerciseCrudServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="935">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
         </state>
       </provider>
     </entry>
