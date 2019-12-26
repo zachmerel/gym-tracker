@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/config-service/pom.xml" />
         <option value="$PROJECT_DIR$/service-registry/pom.xml" />
         <option value="$PROJECT_DIR$/exercise-crud-service/pom.xml" />
+        <option value="$PROJECT_DIR$/strength-exercise-crud-service/pom.xml" />
       </list>
     </option>
   </component>

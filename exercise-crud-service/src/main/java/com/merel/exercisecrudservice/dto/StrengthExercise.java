@@ -3,29 +3,36 @@ package com.merel.exercisecrudservice.dto;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import java.util.Objects;
 
 @Entity
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Table(name = "strength_exercise")
-public class Exercise {
+public class StrengthExercise {
 
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer exerciseId;
+    @NotEmpty
     private String exerciseDescription;
     private int frequency;
+    @NotNull
     private int numberOfSets;
+    @NotNull
     private int numberOfReps;
+    @NotNull
     private double weight;
     private String notes;
     private int restTime;
     private boolean toFailure;
 
-    public Exercise() {
+    public StrengthExercise() {
     }
 
-    public Exercise(Integer exerciseId, String exerciseDescription, int frequency, int numberOfSets,
-                    int numberOfReps, double weight, String notes, int restTime, boolean toFailure) {
+    public StrengthExercise(Integer exerciseId, String exerciseDescription, int frequency, int numberOfSets,
+                            int numberOfReps, double weight, String notes, int restTime, boolean toFailure) {
         this.exerciseId = exerciseId;
         this.exerciseDescription = exerciseDescription;
         this.frequency = frequency;
@@ -113,16 +120,16 @@ public class Exercise {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Exercise exercise = (Exercise) o;
-        return frequency == exercise.frequency &&
-                numberOfSets == exercise.numberOfSets &&
-                numberOfReps == exercise.numberOfReps &&
-                Double.compare(exercise.weight, weight) == 0 &&
-                restTime == exercise.restTime &&
-                toFailure == exercise.toFailure &&
-                Objects.equals(exerciseId, exercise.exerciseId) &&
-                Objects.equals(exerciseDescription, exercise.exerciseDescription) &&
-                Objects.equals(notes, exercise.notes);
+        StrengthExercise strengthExercise = (StrengthExercise) o;
+        return frequency == strengthExercise.frequency &&
+                numberOfSets == strengthExercise.numberOfSets &&
+                numberOfReps == strengthExercise.numberOfReps &&
+                Double.compare(strengthExercise.weight, weight) == 0 &&
+                restTime == strengthExercise.restTime &&
+                toFailure == strengthExercise.toFailure &&
+                Objects.equals(exerciseId, strengthExercise.exerciseId) &&
+                Objects.equals(exerciseDescription, strengthExercise.exerciseDescription) &&
+                Objects.equals(notes, strengthExercise.notes);
     }
 
     @Override
@@ -132,7 +139,7 @@ public class Exercise {
 
     @Override
     public String toString() {
-        return "Exercise{" +
+        return "StrengthExercise{" +
                 "exerciseId=" + exerciseId +
                 ", exerciseDescription='" + exerciseDescription + '\'' +
                 ", frequency=" + frequency +

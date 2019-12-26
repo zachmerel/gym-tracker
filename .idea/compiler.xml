@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="exercise-crud-service" />
+        <module name="strength-exercise-crud-service" />
         <module name="service-registry" />
         <module name="config-service" />
       </profile>
@@ -15,6 +16,7 @@
       <module name="config-service" target="1.8" />
       <module name="exercise-crud-service" target="1.8" />
       <module name="service-registry" target="1.8" />
+      <module name="strength-exercise-crud-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +24,7 @@
       <module name="config-service" options="-parameters" />
       <module name="exercise-crud-service" options="-parameters" />
       <module name="service-registry" options="-parameters" />
+      <module name="strength-exercise-crud-service" options="-parameters" />
     </option>
   </component>
 </project>

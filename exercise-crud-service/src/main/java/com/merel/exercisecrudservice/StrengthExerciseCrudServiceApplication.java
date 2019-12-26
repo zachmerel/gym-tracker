@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ExerciseCrudServiceApplication {
+public class StrengthExerciseCrudServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ExerciseCrudServiceApplication.class, args);
+		SpringApplication.run(StrengthExerciseCrudServiceApplication.class, args);
 	}
 
 }
