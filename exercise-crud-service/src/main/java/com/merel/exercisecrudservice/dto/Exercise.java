@@ -7,38 +7,33 @@ import java.util.Objects;
 
 @Entity
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
-@Table(name = "gym")
+@Table(name = "strength_exercise")
 public class Exercise {
 
 
     private Integer exerciseId;
     private String exerciseDescription;
     private int frequency;
-    private String type;
     private int numberOfSets;
     private int numberOfReps;
     private double weight;
     private String notes;
-    private int caloriesBurned;
-    private double duration;
+    private int restTime;
     private boolean toFailure;
 
     public Exercise() {
     }
 
-    public Exercise(Integer exerciseId, String exerciseDescription, int frequency,
-                    String type, int numberOfSets, int numberOfReps, double weight,
-                    String notes, int caloriesBurned, double duration, boolean toFailure) {
+    public Exercise(Integer exerciseId, String exerciseDescription, int frequency, int numberOfSets,
+                    int numberOfReps, double weight, String notes, int restTime, boolean toFailure) {
         this.exerciseId = exerciseId;
         this.exerciseDescription = exerciseDescription;
         this.frequency = frequency;
-        this.type = type;
         this.numberOfSets = numberOfSets;
         this.numberOfReps = numberOfReps;
         this.weight = weight;
         this.notes = notes;
-        this.caloriesBurned = caloriesBurned;
-        this.duration = duration;
+        this.restTime = restTime;
         this.toFailure = toFailure;
     }
 
@@ -64,14 +59,6 @@ public class Exercise {
 
     public void setFrequency(int frequency) {
         this.frequency = frequency;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
     }
 
     public int getNumberOfSets() {
@@ -106,20 +93,12 @@ public class Exercise {
         this.notes = notes;
     }
 
-    public int getCaloriesBurned() {
-        return caloriesBurned;
+    public int getRestTime() {
+        return restTime;
     }
 
-    public void setCaloriesBurned(int caloriesBurned) {
-        this.caloriesBurned = caloriesBurned;
-    }
-
-    public double getDuration() {
-        return duration;
-    }
-
-    public void setDuration(double duration) {
-        this.duration = duration;
+    public void setRestTime(int restTime) {
+        this.restTime = restTime;
     }
 
     public boolean isToFailure() {
@@ -139,18 +118,16 @@ public class Exercise {
                 numberOfSets == exercise.numberOfSets &&
                 numberOfReps == exercise.numberOfReps &&
                 Double.compare(exercise.weight, weight) == 0 &&
-                caloriesBurned == exercise.caloriesBurned &&
-                Double.compare(exercise.duration, duration) == 0 &&
+                restTime == exercise.restTime &&
                 toFailure == exercise.toFailure &&
                 Objects.equals(exerciseId, exercise.exerciseId) &&
                 Objects.equals(exerciseDescription, exercise.exerciseDescription) &&
-                Objects.equals(type, exercise.type) &&
                 Objects.equals(notes, exercise.notes);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(exerciseId, exerciseDescription, frequency, type, numberOfSets, numberOfReps, weight, notes, caloriesBurned, duration, toFailure);
+        return Objects.hash(exerciseId, exerciseDescription, frequency, numberOfSets, numberOfReps, weight, notes, restTime, toFailure);
     }
 
     @Override
@@ -159,13 +136,11 @@ public class Exercise {
                 "exerciseId=" + exerciseId +
                 ", exerciseDescription='" + exerciseDescription + '\'' +
                 ", frequency=" + frequency +
-                ", type='" + type + '\'' +
                 ", numberOfSets=" + numberOfSets +
                 ", numberOfReps=" + numberOfReps +
                 ", weight=" + weight +
                 ", notes='" + notes + '\'' +
-                ", caloriesBurned=" + caloriesBurned +
-                ", duration=" + duration +
+                ", restTime=" + restTime +
                 ", toFailure=" + toFailure +
                 '}';
     }
