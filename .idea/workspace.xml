@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4f66ec4-87b6-4a41-8d32-ec6e33c2a334" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/controller/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/controller/StrengthExerciseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/dao/StrengthExerciseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/dto/StrengthExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strength-exercise-crud-service/src/test/java/com/merel/strengthexercisecrudservice/dao/StrengthExerciseDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strength-exercise-crud-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/strength-exercise-crud-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/StrengthExerciseCrudServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/controller/StrengthExerciseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/dao/StrengthExerciseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/dto/StrengthExercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-crud-service/src/test/java/com/merel/exercisecrudservice/StrengthStrengthExerciseCrudServiceApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config-service/target/" />
     <ignored path="$PROJECT_DIR$/service-registry/target/" />
@@ -21,38 +41,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/StrengthExerciseCrudServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise-crud-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/resources/bootstrap.properties">
+        <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/controller/StrengthExerciseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="54" />
+            <state relative-caret-position="319">
+              <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3186#3187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/dto/StrengthExercise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2379#2380#0" expanded="true" />
+                <element signature="e#2415#2416#0" expanded="true" />
+                <element signature="e#2583#2584#0" expanded="true" />
+                <element signature="e#2614#2615#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/dao/StrengthExerciseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,6 +88,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="CONTROLLER_EXCEPTION_HANDLER" />
         <option value="Class" />
       </list>
     </option>
@@ -90,6 +116,12 @@
         <option value="$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/StrengthExerciseCrudServiceApplication.java" />
         <option value="$PROJECT_DIR$/strength-exercise-crud-service/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/strength-exercise-crud-service/pom.xml" />
+        <option value="$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/exception/NotFoundException.java" />
+        <option value="$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/controller/ControllerExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/dto/StrengthExercise.java" />
+        <option value="$PROJECT_DIR$/strength-exercise-crud-service/src/test/java/com/merel/strengthexercisecrudservice/dao/StrengthExerciseDaoTest.java" />
+        <option value="$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/dao/StrengthExerciseDao.java" />
+        <option value="$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/controller/StrengthExerciseController.java" />
       </list>
     </option>
   </component>
@@ -125,11 +157,6 @@
             <path>
               <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
               <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-crud-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
@@ -172,7 +199,81 @@
               <item name="strength-exercise-crud-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strengthexercisecrudservice" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
+              <item name="strength-exercise-crud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strengthexercisecrudservice" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
+              <item name="strength-exercise-crud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strengthexercisecrudservice" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
+              <item name="strength-exercise-crud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strengthexercisecrudservice" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
+              <item name="strength-exercise-crud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
+              <item name="strength-exercise-crud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
+              <item name="strength-exercise-crud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
+              <item name="strength-exercise-crud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strengthexercisecrudservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym-tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym-tracker" type="462c0819:PsiDirectoryNode" />
+              <item name="strength-exercise-crud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strengthexercisecrudservice" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StrengthExerciseCrudServiceApplication (1)">
+  <component name="RunManager" selected="JUnit.StrengthExerciseDaoTest.findStrengthExerciseByExerciseDescription">
     <configuration name="ConfigServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.merel.configservice.ConfigServiceApplication" />
       <module name="config-service" />
@@ -238,15 +339,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrengthExerciseCrudServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.merel.exercisecrudservice.StrengthExerciseCrudServiceApplication" />
-      <module name="exercise-crud-service" />
+    <configuration name="StrengthExerciseDaoTest.findStrengthExerciseByDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strength-exercise-crud-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.merel.exercisecrudservice.*" />
+          <option name="PATTERN" value="com.merel.strengthexercisecrudservice.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.merel.strengthexercisecrudservice.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.merel.strengthexercisecrudservice.dao.StrengthExerciseDaoTest" />
+      <option name="METHOD_NAME" value="findStrengthExerciseByDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrengthExerciseDaoTest.findStrengthExerciseByExerciseDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strength-exercise-crud-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.merel.strengthexercisecrudservice.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.merel.strengthexercisecrudservice.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.merel.strengthexercisecrudservice.dao.StrengthExerciseDaoTest" />
+      <option name="METHOD_NAME" value="findStrengthExerciseByExerciseDescription" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,9 +374,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StrengthExerciseCrudServiceApplication (1)" />
+        <item itemvalue="JUnit.StrengthExerciseDaoTest.findStrengthExerciseByExerciseDescription" />
         <item itemvalue="Application.ServiceRegistryApplication" />
         <item itemvalue="Application.ConfigServiceApplication" />
-        <item itemvalue="Application.StrengthExerciseCrudServiceApplication" />
+        <item itemvalue="JUnit.StrengthExerciseDaoTest.findStrengthExerciseByDescription" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +394,26 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="StrengthExerciseDaoTest_findStrengthExerciseByDescription - 2019.12.30 at 11h 38m 19s.xml">
+      <configuration name="StrengthExerciseDaoTest.findStrengthExerciseByDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StrengthExerciseDaoTest_findStrengthExerciseByDescription - 2019.12.30 at 11h 38m 55s.xml">
+      <configuration name="StrengthExerciseDaoTest.findStrengthExerciseByDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StrengthExerciseDaoTest_findStrengthExerciseByDescription - 2019.12.30 at 11h 42m 16s.xml">
+      <configuration name="StrengthExerciseDaoTest.findStrengthExerciseByDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StrengthExerciseDaoTest_findStrengthExerciseByDescription - 2019.12.30 at 11h 46m 28s.xml">
+      <configuration name="StrengthExerciseDaoTest.findStrengthExerciseByDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StrengthExerciseDaoTest_findStrengthExerciseByDescription - 2019.12.30 at 11h 53m 24s.xml">
+      <configuration name="StrengthExerciseDaoTest.findStrengthExerciseByDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StrengthExerciseDaoTest_findStrengthExerciseByExerciseDescription - 2019.12.30 at 12h 24m 21s.xml">
+      <configuration name="StrengthExerciseDaoTest.findStrengthExerciseByExerciseDescription" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
@@ -282,7 +423,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17773306" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33333334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -290,8 +431,8 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46817538" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42291373" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -354,72 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/dao/StrengthExerciseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/dto/StrengthExercise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1312#1313#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
-            <element signature="e#1532#1533#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-            <element signature="e#1722#1723#0" expanded="true" />
-            <element signature="e#1757#1758#0" expanded="true" />
-            <element signature="e#1810#1811#0" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-            <element signature="e#1894#1895#0" expanded="true" />
-            <element signature="e#1929#1930#0" expanded="true" />
-            <element signature="e#1982#1983#0" expanded="true" />
-            <element signature="e#2030#2031#0" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
-            <element signature="e#2092#2093#0" expanded="true" />
-            <element signature="e#2136#2137#0" expanded="true" />
-            <element signature="e#2172#2173#0" expanded="true" />
-            <element signature="e#2204#2205#0" expanded="true" />
-            <element signature="e#2232#2233#0" expanded="true" />
-            <element signature="e#2274#2275#0" expanded="true" />
-            <element signature="e#2308#2309#0" expanded="true" />
-            <element signature="e#2340#2341#0" expanded="true" />
-            <element signature="e#2371#2372#0" expanded="true" />
-            <element signature="e#2416#2417#0" expanded="true" />
-            <element signature="e#2456#2457#0" expanded="true" />
-            <element signature="e#2492#2493#0" expanded="true" />
-            <element signature="e#2524#2525#0" expanded="true" />
-            <element signature="e#2575#2576#0" expanded="true" />
-            <element signature="e#2617#2618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/controller/StrengthExerciseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#964#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-crud-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -451,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/StrengthExerciseCrudServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -468,7 +536,113 @@
     <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="54" />
+          <caret column="24" selection-start-column="24" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/dto/StrengthExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="152" column="5" lean-forward="true" selection-start-line="9" selection-end-line="152" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2371#2372#0" expanded="true" />
+            <element signature="e#2407#2408#0" expanded="true" />
+            <element signature="e#2575#2576#0" expanded="true" />
+            <element signature="e#2606#2607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/dao/StrengthExerciseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-crud-service/src/main/java/com/merel/exercisecrudservice/controller/StrengthExerciseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/exception/NotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/StrengthExerciseCrudServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/test/java/com/merel/strengthexercisecrudservice/dao/StrengthExerciseDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="45" column="1" lean-forward="true" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/dao/StrengthExerciseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/dto/StrengthExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2379#2380#0" expanded="true" />
+            <element signature="e#2415#2416#0" expanded="true" />
+            <element signature="e#2583#2584#0" expanded="true" />
+            <element signature="e#2614#2615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/controller/ControllerExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="36" selection-start-line="36" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strength-exercise-crud-service/src/main/java/com/merel/strengthexercisecrudservice/controller/StrengthExerciseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3186#3187#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

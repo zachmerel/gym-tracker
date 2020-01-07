@@ -1,4 +1,4 @@
-package com.merel.exercisecrudservice.dto;
+package com.merel.strengthexercisecrudservice.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

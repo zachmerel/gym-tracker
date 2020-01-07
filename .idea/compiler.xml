@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="exercise-crud-service" />
         <module name="strength-exercise-crud-service" />
         <module name="service-registry" />
         <module name="config-service" />
